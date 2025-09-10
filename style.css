@@ -36,9 +36,7 @@ header {
     width: 100%;
     margin: auto;
 }
-.logo{
-    /* width: 120px; */
-}
+
 
 .left-side {
     display: flex;
@@ -180,10 +178,6 @@ header {
 @media (max-width: 1075px) {
   .crack {
     max-width: 350px; /* shrink image */
-  }
-
-  h1 {
-    /* font-size: 2.5rem; */
   }
 
   .para {
@@ -849,6 +843,67 @@ h2 {
     transition: all 2s ease;
 
 }
+.caroussel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: #f8f9fa;
+  padding: 40px 0;
+  margin-top: 40px;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* Carousel Container */
+.carousel {
+  width: 80vw;
+  max-width: 700px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+/* Carousel Images */
+.carousel-inner img {
+  object-fit: cover;
+  width: 100% !important;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin: 0 auto;
+  background: #e9ecef;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #343a40;
+  border-radius: 50%;
+  padding: 12px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carousel {
+    width: 98vw;
+    max-width: 98vw;
+  }
+  .carousel-inner img {
+    height: 180px;
+  }
+  .caroussel {
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+}
 
 .abou {
     /* background-color: #20475F;  */
@@ -1453,5 +1508,12 @@ footer {
 h4 {
     font-size: 1.1em;
     padding: 10px;
+    color: white;
+}
+.marquee{
+    width: 30%;
+    margin: auto;
+}
+.marquee marquee{
     color: white;
 }
