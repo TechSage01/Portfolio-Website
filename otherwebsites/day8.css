@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #FFFFFF;
+    /* padding: 10px; */
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    padding: 10px 20px;
+}
+.logo {
+    width: 180px;
+    /* padding-right: 20px; */
+}
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+}
+.menu-list li {
+    list-style-type: none;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 1.6em;
+}
+.right-side li {
+    list-style-type: none;
+}
+.right-side li a {
+    text-decoration: none;
+    color: rgb(61, 55, 55);
+}
+.btn1 {
+    padding: 10px 15px;
+    border-radius: 28px;
+    border: thin solid #6161FF;
+    background-color: white;
+}
+.btn2 {
+    padding: 10px 50px;
+    border-radius: 28px;
+    border: thin solid #6161ff;
+    background-color: #6161ff;
+    color: #FFFFFF;  
+}
+.btn1:hover {
+    background-color: #6161FF;
+}
+.hero-section {
+    background-color: #F0F3FF;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 100vh;
+}
+.lead-section {
+    /* text-align: center; */
+    background-color: #6161FF;
+    border-radius: 20px;
+}
+.h1 {
+    font-size: 4.5em;
+    /* font-weight: 500; */
+    padding: 40px;
+    text-align: center;
+    color: #797B7F;
+}
+.texts {
+    text-align: center;
+    font-size: 1.4em;
+}
+.btn-3 {
+    margin: 20px;
+    padding: 10px 40px;
+    background-color: #6161FF;
+    border-radius: 20px;
+}
+.btn-3:hover {
+    background-color: blue;
+}
+h1 {
+    text-align: center;
+
+    
+
+}
+.lead-div {
+    padding: 20px 30px;
+    /* margin: auto; */
+    font-size: 3em;
+}
+.second-div{
+    display: flex;
+    background-color: #6161FF;
+    border-radius: 20px;
+}
+.gather {
+    width: 150px;
+    margin: 50px;
+}
+.get-her{
+    width: 150px;
+    margin: 50px;
+    background-color: #FFFFFF;    
+}
+.gether {
+    width: 200px;
+    margin: 50px;
+}
+
+.sec1 {
+    width: 30%;
+    height: 80vh;
+    background-color: #97AEFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.2em;
+    
+}.sec2 {
+    width: 30%;
+    height: 80vh;
+    background-color: #FFCC00;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    
+}.sec3 {
+    width: 30%;
+    height: 80vh;
+    background-color: #00CA72;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.2em;
+    
+}
+a {
+    /* text-decoration: none; */
+}
