@@ -1080,6 +1080,8 @@ h2 {
 }
 .h2 {
     text-align: center;
+    font-size: 4em;
+    padding: 10px;
 }
 .serve {
   display: flex;
@@ -1381,9 +1383,30 @@ input[type="submit"]:hover {
     background-color: #ffffff;
     border: none;
 }
+.know a i {
+  transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(35,39,47,0.08);
+  padding: 8px;
+  margin: 0 6px;
+  position: relative;
+}
+
+.know a:hover i {
+  transform: scale(1.18) rotate(-8deg);
+  box-shadow: 0 6px 24px rgba(35,39,47,0.18);
+  color: #25D366 !important; /* WhatsApp green as default, override below */
+  background: #e9ecef;
+}
+.know a[href*="whatsapp"]:hover i { color: #25D366 !important; }
+.know a[href*="x.com"]:hover i { color: #000 !important; }
+.know a[href*="linkedin"]:hover i { color: #007AB9 !important; }
+.know a[href*="github"]:hover i { color: #333 !important; }
+
 .know a {
     text-decoration: none;
-}
+} 
 @media (max-width: 1024px) {
     .taken {
         display: flex;
@@ -1510,3 +1533,38 @@ h4 {
 .marquee marquee{
     color: white;
 }
+.known {
+     display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 0.2em;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: #ffffff; */
+    border: none;
+}
+.known a i {
+  transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+  border-radius: 50%;
+  /* background: ; */
+  box-shadow: 0 2px 8px rgba(35,39,47,0.08);
+  padding: 8px;
+  margin: 0 6px;
+  position: relative;
+}
+
+.known a:hover i {
+  transform: scale(1.18) rotate(-8deg);
+  box-shadow: 0 6px 24px rgba(35,39,47,0.18);
+  color: #25D366 !important; /* WhatsApp green as default, override below */
+  background: black;
+}
+.known a[href*="whatsapp"]:hover i { color: #25D366 !important; }
+.known a[href*="x.com"]:hover i { color: white !important; }
+.known a[href*="linkedin"]:hover i { color: #007AB9 !important; }
+.known a[href*="github"]:hover i { color: white !important; }
+
+.known a {
+    text-decoration: none;
+} 
