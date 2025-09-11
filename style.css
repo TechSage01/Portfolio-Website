@@ -1000,7 +1000,9 @@ h2 {
 
 }
 .about-text strong{
-    color: black;
+    color: white;
+    font-size: 1.4em;
+    /* padding: 10px; */
 }
 .lap {
     margin: auto;
@@ -1028,8 +1030,8 @@ h2 {
     /* background-color: #70707b; */
     /* transform: translateY(-2px); */
     /* transition: all 3s ease; */
-     transform: scale(1.13) translateY(-6px);
-  box-shadow: 0 8px 32px rgba(35,39,47,0.15);
+    transform: scale(1.13) translateY(-6px);
+    box-shadow: 0 8px 32px rgba(35,39,47,0.15);
 
 
 }
