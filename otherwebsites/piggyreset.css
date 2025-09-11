@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+}
+form {
+    width: 40%;
+    margin: 80px auto;
+    /* border: 2px solid black; */
+    padding: 25px 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 10px;
+    color: #666D7C;
+    padding-top: 3px;  
+    border: thin solid white;
+    font-family: "Plus Jakarta Sans-Regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+input {
+    /* padding: 10px 30px; */
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #EBEBEB;
+    border: thin solid white;
+    color: #595B61;
+    font-family: "Plus Jakarta Sans-Regular", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+}
+input:focus {
+    border: 2px solid #1D4ED8;
+    outline: none;
+    color: black;
+}
+.btn-1 {
+    padding: 15px 20px;
+    color: white;
+    background-color: #1D4ED8;
+    font-size: 18px;
+    border: 2px solid #1D4ED8;
+    cursor: pointer;
+    margin-top: 60px;
+    font-family: "Plus Jakarta Sans-Regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 14px;
+}
+
+h1 {
+    padding-bottom: 8px;
+    color: #222936;
+    font-family: "Plus Jakarta Sans-SemiBold", sans-serif;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+}
+.para {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #595B61;
+    font-family: "Plus Jakarta Sans-SemiBold", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+a {
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.link-1 {
+    color: #6083E4;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
