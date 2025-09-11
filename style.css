@@ -290,7 +290,8 @@ h1 {
 .works {
     /* text-align: center; */
     /* background-color:  #7F8C8D; */
-    background-color: #f1f5f9;
+    background-color: #FFFFFF;
+    color: white;
     width: 100%;
     
 }
@@ -393,7 +394,7 @@ h2 {
     }
 }
 .project {
-    background-color: #c9d2d8;
+    background-color: #f3f6fa;
     display: flex;
     /* align-items: center; */
     gap: 3em;
@@ -616,7 +617,7 @@ h2 {
     transition: all 2s ease;
 }
 .commerce {
-    background-color: #c9d2d8;
+    background-color: #f3f6fa;
     display: flex;
     /* align-items: center; */
     gap: 3em;
