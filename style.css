@@ -96,6 +96,11 @@ header {
         visibility: visible;
     }
 }
+@media (max-width : 360px) {
+    .bars {
+        margin-left: 70px;
+    }    
+}
 /* .fa-brands {
     
 } */
