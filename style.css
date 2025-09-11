@@ -1498,7 +1498,8 @@ input[type="submit"]:hover {
 @media (max-width: 330px) {
     .form-2 input{
         width: 270px;
-        margin: auto;
+        /* margin: auto; */
+        margin-left: 20px;
     }
     .submit input{
         width: 270px;
@@ -1510,7 +1511,8 @@ footer {
 .class {
     text-align: left;
     padding: 10px;
-    font-size: 1.6em;
+    color: black;
+    font-size: 1.8em;
 }
 .sage {
     text-align: center;
